@@ -1,0 +1,39 @@
+body {
+    font: normal 12px Verdana, Arial, sans-serif;
+}
+
+table {
+    width: 300px;
+}
+
+td, th {
+	border: 1px solid #000;
+}
+
+th {
+    padding: 5px;
+    font: bold 12px Verdana, Arial, sans-serif;
+}
+
+td {
+    padding: 10px;
+    width: 100px;
+}
+
+td input {
+    margin: 0;
+    padding: 0;
+    width:98px;
+    font: normal 12px sans-serif;
+	/** Less flicker when :focus adds the underline **/
+	border: 1px solid #fff;
+}
+
+td input:focus {
+    outline: 0;
+	border-bottom: 1px dashed #ddd !important;
+}
+
+#grid input {
+    width: 100%;
+}
